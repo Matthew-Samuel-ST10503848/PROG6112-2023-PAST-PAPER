@@ -12,7 +12,7 @@ public interface IEstateAgent {
     
     double EstateAgentSales(double[] propertySales);
     
-    double EstateAgentCommision(double propertySales);
+    double EstateAgentCommission(double propertySales);
     
     int TopEstateAgent(double[] totalSales);
     
