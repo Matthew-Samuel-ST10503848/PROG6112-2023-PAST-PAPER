@@ -11,6 +11,12 @@ package com.mycompany.estateagentsales;
 public class EstateAgentSales {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        //Store the property sales for both estate agents in a 2D array called propertySales
+        double[][] propertySales = { {800000, 1500000, 2000000}, {700000, 1200000, 1600000} };
+        
+        //Store the estate agent names in a 1D array called agentNames
+        String[] agentNames = {"Joe Bloggs", "Jane Doe"};
+       
     }
 }
